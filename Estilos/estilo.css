@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
 
+/*ZERANDO A PÁGINA*/
 *{margin:0; padding: 0;}
 
 html,body{
 	width: 100%;
 	height: 100%;
-	font-family: 'Source Code Pro', monospace;
-	font-weight: bold;
 }
+
+/*-------------------------------------------------CABEÇALHO--------------------------------------------------*/
 
 header{
 	width: 100%;
 	min-height: 10%;
-	background-color: #cbf3f0;
-	color: #000;
+	background-color: #006466;
 }
 
 #icone-dev{
@@ -26,9 +26,13 @@ header{
 	float: left;
 	display: inline;
 	margin-top: 1.5%;
-	font-size: 1.9em;
+	font-size: 1.6em;
+	font-family: 'Lexend Mega', sans-serif;
+	color: #fff;
 }
 
+
+/*--------------------------------------------MENU CABEÇALHO--------------------------------------------------*/
 #menu{ 
 	float: right;
 	display: inline;
@@ -47,25 +51,76 @@ header{
 
 #menu li a{
 	margin-right: 30px;
+	font-family: 'Lexend Mega', sans-serif;
 	text-decoration: none;
-	font-size: 1.3em;
+	font-size: 1em;
+	color: #fff;
 }
 
+#menu li a:hover{
+	transition: 0.5s;
+	text-decoration: underline;
+}
+
+.barra-menu{
+	border-right: 2px solid #fff;
+	margin-right: 25px;
+}
+/*----------------------------------------FIM MENU CABEÇALHO--------------------------------------------------*/
+
+/*---------------------------------------------FIM CABEÇALHO--------------------------------------------------*/
+
+/*---------------------------------------------CONTEÚDO PRINCIPAL---------------------------------------------*/
 #conteúdo-principal{
 	width: 100%;
 	min-height: 80%;
 	background-color: #fff; 
 }
+/*-----------------------------------------FIM CONTEÚDO PRINCIPAL---------------------------------------------*/
 
+/*---------------------------------------------BARRA LATERAL--------------------------------------------------*/
+#barra-lateral{
+	position: static;
+	width: 15%;
+	height: 490px;
+	padding-top: 285px;
+	background-image: linear-gradient(to bottom left, #006466, #065A60, #0B525B, #144552, #1B3A4B);
+}
+
+#lista-pessoal li{
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.espaço-lista{
+	margin-bottom: 40px;
+}
+
+#lista-pessoal li:hover{
+	transition: 0.2s;
+	background-color: #212F45;
+}
+
+#lista-pessoal li a{
+	font-family: 'Lexend Mega', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	font-size: 1em;
+	color: #fff;
+}
+/*-----------------------------------------FIM BARRA LATERAL--------------------------------------------------*/
+
+/*-------------------------------------------------RODAPÉ-----------------------------------------------------*/
 #rodapé{
 	width: 100%;
 	min-height: 10%;
-	background-color: #2ec4b6;
-	color: #000;
+	background-color: #0B525B;
 }
 
 #parágrafo-rodapé{
 	padding-left: 2%;
 	padding-top: 2%;
+	font-family: 'Lexend Mega', sans-serif;
+	font-size: 0.9em;
 	color: #fff;
-}
+/*---------------------------------------------FIM RODAPÉ-----------------------------------------------------*/
