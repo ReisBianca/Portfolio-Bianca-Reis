@@ -8,6 +8,10 @@ html,body{
 	height: 100%;
 }
 
+.clear{
+	clear: both;
+}
+
 /*-------------------------------------------------CABEÇALHO--------------------------------------------------*/
 
 header{
@@ -76,11 +80,22 @@ header{
 	min-height: 80%;
 	background-color: #fff; 
 }
+
+.topicos{
+	float: left;
+	display: inline-block;
+	width: 25%;
+	height: 250px;
+	background-color: #000;
+}
+
 /*-----------------------------------------FIM CONTEÚDO PRINCIPAL---------------------------------------------*/
 
 /*---------------------------------------------BARRA LATERAL--------------------------------------------------*/
 #barra-lateral{
+	float: left;
 	position: static;
+	display: inline-block;
 	width: 15%;
 	height: 490px;
 	padding-top: 285px;
@@ -90,6 +105,7 @@ header{
 #lista-pessoal li{
 	border-top: 2px solid #fff;
 	border-bottom: 2px solid #fff;
+	list-style: none;
 }
 
 .espaço-lista{
@@ -104,7 +120,6 @@ header{
 #lista-pessoal li a{
 	font-family: 'Lexend Mega', sans-serif;
 	text-decoration: none;
-	list-style: none;
 	font-size: 1em;
 	color: #fff;
 }
