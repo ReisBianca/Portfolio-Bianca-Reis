@@ -8,15 +8,15 @@ html,body{
 	height: 100%;
 }
 
+/*CLASSE QUE LIMPA OS FLUXOS FLUTUANTES*/
 .clear{
 	clear: both;
 }
 
 /*-------------------------------------------------CABEÇALHO--------------------------------------------------*/
-
 header{
 	width: 100%;
-	min-height: 11%;
+	min-height: 12%;
 	background-color: #006466;
 }
 
@@ -40,7 +40,7 @@ header{
 	float: left;
 	color: #fff;
 }
-
+/*---------------------------------------------FIM CABEÇALHO--------------------------------------------------*/
 
 /*--------------------------------------------MENU CABEÇALHO--------------------------------------------------*/
 #menu{ 
@@ -78,49 +78,17 @@ header{
 }
 /*----------------------------------------FIM MENU CABEÇALHO--------------------------------------------------*/
 
-/*---------------------------------------------FIM CABEÇALHO--------------------------------------------------*/
-
 /*---------------------------------------------CONTEÚDO PRINCIPAL---------------------------------------------*/
 #conteúdo-principal{
 	width: 100%;
 	min-height: 80%;
 	background-color: #fff;
 }
-
-.topicos{
-	float: left;
-	position: absolute;
-	width: 50%;
-	height: 700px;
-	margin-top: 40px;
-	background-color: #272640;
-	color: #fff;
-	font-size: 1.5em;
-	border-right: 5px solid #fff;
-	border-radius: 10px;
-}
-
-/*PS: deixar essas sections mais fluídas*/
-
-
-#técnico{
-	margin-left: 220px;
-}
-
-#faculdade{
-	margin-left: 260px;
-}
-
-#interesses{;
-	margin-left: 300px;
-}
-
 /*-----------------------------------------FIM CONTEÚDO PRINCIPAL---------------------------------------------*/
 
 /*---------------------------------------------BARRA LATERAL--------------------------------------------------*/
 #barra-lateral{
 	float: left;
-	position: static;
 	display: inline-block;
 	width: 15%;
 	height: 490px;
@@ -151,10 +119,53 @@ header{
 }
 /*-----------------------------------------FIM BARRA LATERAL--------------------------------------------------*/
 
+/*---------------------------------TÓPICOS DA PÁGINA INICIAL--------------------------------------------------*/
+.topicos{
+	float: left;
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 700px;
+	margin-top: 40px;
+	background-color: #006466;
+	color: #fff;
+	font-size: 1.5em;
+	border-right: 5px solid #fff;
+	border-radius: 10px;
+}
+
+#bem-vindo{
+	float: left;
+	position: absolute;
+	display: inline-block;
+	width: 50%;
+	height: 700px;
+	margin-left: 180px;
+	margin-top: 40px;
+	background-color: #006466;
+	color: #fff;
+	font-size: 1.5em;
+	border-right: 5px solid #fff;
+	border-radius: 10px;
+}
+
+#técnico{
+	margin-left: 220px;
+}
+
+#faculdade{
+	margin-left: 260px;
+}
+
+#interesses{;
+	margin-left: 300px;
+}
+/*-------------------------FIM DOS TÓPICOS DA PÁGINA INICIAL--------------------------------------------------*/
+
 /*-------------------------------------------------RODAPÉ-----------------------------------------------------*/
 #rodapé{
 	width: 100%;
-	min-height: 9%;
+	min-height: 8%;
 	background-color: #0B525B;
 }
 
