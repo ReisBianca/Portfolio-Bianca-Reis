@@ -16,7 +16,7 @@ html,body{
 
 header{
 	width: 100%;
-	min-height: 10%;
+	min-height: 11%;
 	background-color: #006466;
 }
 
@@ -32,6 +32,12 @@ header{
 	margin-top: 1.5%;
 	font-size: 1.6em;
 	font-family: 'Lexend Mega', sans-serif;
+	color: #fff;
+}
+
+#nota{
+	width: 100%;
+	float: left;
 	color: #fff;
 }
 
@@ -78,15 +84,35 @@ header{
 #conteúdo-principal{
 	width: 100%;
 	min-height: 80%;
-	background-color: #fff; 
+	background-color: #fff;
 }
 
 .topicos{
 	float: left;
-	display: inline-block;
-	width: 25%;
-	height: 250px;
-	background-color: #000;
+	position: absolute;
+	width: 50%;
+	height: 700px;
+	margin-top: 40px;
+	background-color: #272640;
+	color: #fff;
+	font-size: 1.5em;
+	border-right: 5px solid #fff;
+	border-radius: 10px;
+}
+
+/*PS: deixar essas sections mais fluídas*/
+
+
+#técnico{
+	margin-left: 220px;
+}
+
+#faculdade{
+	margin-left: 260px;
+}
+
+#interesses{;
+	margin-left: 300px;
 }
 
 /*-----------------------------------------FIM CONTEÚDO PRINCIPAL---------------------------------------------*/
@@ -128,7 +154,7 @@ header{
 /*-------------------------------------------------RODAPÉ-----------------------------------------------------*/
 #rodapé{
 	width: 100%;
-	min-height: 10%;
+	min-height: 9%;
 	background-color: #0B525B;
 }
 
